@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.4)  9 JAN 2019 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.4)  15 JAN 2019 22:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,17 +569,82 @@ Package hyperref Warning: Option `hyperfootnotes' has already been used,
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
 (hyperref)                setting the option has no effect on input line 184.
 
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip97
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen133
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen134
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count108
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count109
+\leftroot@=\count110
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count111
+\DOTSCASE@=\count112
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen135
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count113
+\c@MaxMatrixCols=\count114
+\dotsspace@=\muskip11
+\c@parentequation=\count115
+\dspbrk@lvl=\count116
+\tag@help=\toks18
+\row@=\count117
+\column@=\count118
+\maxfields@=\count119
+\andhelp@=\toks19
+\eqnshift@=\dimen136
+\alignsep@=\dimen137
+\tagshift@=\dimen138
+\tagwidth@=\dimen139
+\totwidth@=\dimen140
+\lineht@=\dimen141
+\@envbody=\toks20
+\multlinegap=\skip98
+\multlinetaggap=\skip99
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup5
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -595,114 +660,62 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen133
-\Gin@req@width=\dimen134
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks24
+\verbatim@line=\toks25
+\verbatim@in@stream=\read1
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip97
-\enit@outerparindent=\dimen135
-\enit@toks=\toks19
-\enit@inbox=\box29
-\enitdp@description=\count108
+\labelindent=\skip100
+\enit@outerparindent=\dimen144
+\enit@toks=\toks26
+\enit@inbox=\box31
+\enitdp@description=\count120
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count109
+\c@lips@count=\count121
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count110
-\sf@farskip=\skip98
-\sf@captopadj=\dimen136
-\sf@capskip=\skip99
-\sf@nearskip=\skip100
-\c@subfigure=\count111
-\c@subfigure@save=\count112
-\c@subtable=\count113
-\c@subtable@save=\count114
-\sf@top=\skip101
-\sf@bottom=\skip102
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip103
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen137
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen138
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count115
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count116
-\leftroot@=\count117
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count118
-\DOTSCASE@=\count119
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box30
-\strutbox@=\box31
-\big@size=\dimen139
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count120
-\c@MaxMatrixCols=\count121
-\dotsspace@=\muskip11
-\c@parentequation=\count122
-\dspbrk@lvl=\count123
-\tag@help=\toks21
-\row@=\count124
-\column@=\count125
-\maxfields@=\count126
-\andhelp@=\toks22
-\eqnshift@=\dimen140
-\alignsep@=\dimen141
-\tagshift@=\dimen142
-\tagwidth@=\dimen143
-\totwidth@=\dimen144
-\lineht@=\dimen145
-\@envbody=\toks23
-\multlinegap=\skip104
-\multlinetaggap=\skip105
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+\c@KVtest=\count122
+\sf@farskip=\skip101
+\sf@captopadj=\dimen145
+\sf@capskip=\skip102
+\sf@nearskip=\skip103
+\c@subfigure=\count123
+\c@subfigure@save=\count124
+\c@subtable=\count125
+\c@subtable@save=\count126
+\sf@top=\skip104
+\sf@bottom=\skip105
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup5
-\symAMSb=\mathgroup6
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks25
-\thm@bodyfont=\toks26
-\thm@headfont=\toks27
-\thm@notefont=\toks28
-\thm@headpunct=\toks29
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
 \thm@preskip=\skip106
 \thm@postskip=\skip107
 \thm@headsep=\skip108
-\dth@everypar=\toks30
+\dth@everypar=\toks32
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/varioref.sty
 Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
@@ -710,15 +723,22 @@ Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
 )
 \c@definition=\count128
 \c@theorem=\count129
-Package hyperref Info: Option `colorlinks' set `true' on input line 74.
-Package hyperref Info: Option `breaklinks' set `true' on input line 74.
+Package hyperref Info: Option `colorlinks' set `true' on input line 77.
+Package hyperref Info: Option `breaklinks' set `true' on input line 77.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 74.
+(hyperref)                setting the option has no effect on input line 77.
 
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 74.
-) (./article_4.aux)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 77.
+) (./article_4.aux
+
+LaTeX Warning: Label `fig:esempio' multiply defined.
+
+
+LaTeX Warning: Label `fig:esempio' multiply defined.
+
+)
 \openout1 = `article_4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -737,8 +757,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 49.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -764,12 +783,12 @@ LaTeX Info: Redefining \Ref on input line 49.
 \scratchbox=\box33
 \nofMPsegments=\count132
 \nofMParguments=\count133
-\everyMPshowfont=\toks31
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count134
 \MPscratchDim=\dimen147
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks32
+\everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -853,7 +872,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 66.
 
+(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
@@ -901,87 +924,107 @@ LaTeX Font Warning: Font shape `OMS/pplj/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textasteriskcentered' on input line 110.
 
-LaTeX Font Info:    Font shape `T1/iwona/bx/sc' in size <10> not available
-(Font)              Font shape `T1/iwona/b/sc' tried instead on input line 125.
 
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/iwona/b/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-[2]
-Overfull \hbox (4.18242pt too wide) in paragraph at lines 131--131
-[] []\T1/iwona/bx/sc/10/80ls dif-fer-ent para-graph de-scrip-tion[] \T1/pplj/m/
-n/10 Pel-len-tesque habi-tant morbi tris-tique senec-
+Overfull \hbox (5.21976pt too wide) in paragraph at lines 128--128
+[]\T1/pplj/m/n/10 The de-ter-mi-na-tion of the double-differential pro-duc-tion
+ cross-section for prompt
  []
 
-<Figures/GalleriaStampe.jpg, id=67, 414.348pt x 409.53pt>
-File: Figures/GalleriaStampe.jpg Graphic file (type jpg)
-<use Figures/GalleriaStampe.jpg>
-Package pdftex.def Info: Figures/GalleriaStampe.jpg  used on input line 172.
-(pdftex.def)             Requested size: 185.0pt x 182.84953pt.
-LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <9> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 173.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 173.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 173.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [3]
-LaTeX Font Info:    Font shape `T1/iwona/bx/it' in size <10> not available
-(Font)              Font shape `T1/iwona/b/it' tried instead on input line 185.
+[2]
+Overfull \hbox (10.84189pt too wide) in paragraph at lines 147--149
+[]\T1/pplj/m/n/10 The for-ward and back-ward cross-section mea-sure-ments are i
+n the range $\U/zeur/m/n/10 p[]\U/zeus/m/n/10 ¨\U/zeur/m/n/10 D[]\U/zeus/m/n/10
+ © \U/zeur/m/n/10 <
+ []
 
- [4 <./Figures/GalleriaStampe.jpg>]
-<Figures/Lorem.jpg, id=92, 240.9pt x 180.675pt>
-File: Figures/Lorem.jpg Graphic file (type jpg)
-<use Figures/Lorem.jpg>
-Package pdftex.def Info: Figures/Lorem.jpg  used on input line 235.
-(pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
+<Figures/Yield_pA.png, id=54, 895.345pt x 634.37pt>
+File: Figures/Yield_pA.png Graphic file (type png)
+<use Figures/Yield_pA.png>
+Package pdftex.def Info: Figures/Yield_pA.png  used on input line 176.
+(pdftex.def)             Requested size: 166.49887pt x 117.96643pt.
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <8> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 235.
-<Figures/Ipsum.jpg, id=93, 240.9pt x 180.675pt>
-File: Figures/Ipsum.jpg Graphic file (type jpg)
-<use Figures/Ipsum.jpg>
-Package pdftex.def Info: Figures/Ipsum.jpg  used on input line 236.
-(pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
-<Figures/Dolor.jpg, id=94, 240.9pt x 180.675pt>
-File: Figures/Dolor.jpg Graphic file (type jpg)
-<use Figures/Dolor.jpg>
-Package pdftex.def Info: Figures/Dolor.jpg  used on input line 237.
-(pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
-<Figures/Sit.jpg, id=95, 240.9pt x 180.675pt>
-File: Figures/Sit.jpg Graphic file (type jpg)
-<use Figures/Sit.jpg>
-Package pdftex.def Info: Figures/Sit.jpg  used on input line 238.
-(pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 176.
+<Figures/Yield_Ap.png, id=56, 895.345pt x 634.37pt>
+File: Figures/Yield_Ap.png Graphic file (type png)
+<use Figures/Yield_Ap.png>
+Package pdftex.def Info: Figures/Yield_Ap.png  used on input line 177.
+(pdftex.def)             Requested size: 166.49887pt x 117.96643pt.
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <9> not available
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 178.
+[3]
+Overfull \hbox (0.50502pt too wide) in paragraph at lines 199--199
+[]\T1/pplj/m/n/10 The $\U/zeur/m/n/10 log\U/zeus/m/n/10 ¨\U/zeur/m/n/10 ^^_[]\U
+/zeus/m/n/10 ¨\U/zeur/m/n/10 D[]\U/zeus/m/n/10 ©©$ \T1/pplj/m/n/10 dis-tri-bu-t
+ion for $\U/zeur/m/n/10 D[]$\T1/pplj/m/n/10 -from-b com-po-nent is de-scribed b
+y a Gaus-
+ []
+
+<Figures/BFraction_pA.png, id=66, 895.345pt x 634.37pt>
+File: Figures/BFraction_pA.png Graphic file (type png)
+<use Figures/BFraction_pA.png>
+Package pdftex.def Info: Figures/BFraction_pA.png  used on input line 207.
+(pdftex.def)             Requested size: 166.49887pt x 117.96643pt.
+<Figures/BFraction_Ap.png, id=67, 893.3375pt x 630.355pt>
+File: Figures/BFraction_Ap.png Graphic file (type png)
+<use Figures/BFraction_Ap.png>
+Package pdftex.def Info: Figures/BFraction_Ap.png  used on input line 208.
+(pdftex.def)             Requested size: 166.49887pt x 117.4795pt.
+<Figures/Mass_Ap_2_3.pdf, id=68, 569.12625pt x 384.43625pt>
+File: Figures/Mass_Ap_2_3.pdf Graphic file (type pdf)
+<use Figures/Mass_Ap_2_3.pdf>
+Package pdftex.def Info: Figures/Mass_Ap_2_3.pdf  used on input line 256.
+(pdftex.def)             Requested size: 166.49887pt x 112.46915pt.
+<Figures/IPCHI2_Ap_2_3.pdf, id=69, 569.12625pt x 409.53pt>
+File: Figures/IPCHI2_Ap_2_3.pdf Graphic file (type pdf)
+<use Figures/IPCHI2_Ap_2_3.pdf>
+Package pdftex.def Info: Figures/IPCHI2_Ap_2_3.pdf  used on input line 257.
+(pdftex.def)             Requested size: 166.49887pt x 119.81047pt.
+<Figures/Mass_pA_2_3.pdf, id=70, 569.12625pt x 384.43625pt>
+File: Figures/Mass_pA_2_3.pdf Graphic file (type pdf)
+<use Figures/Mass_pA_2_3.pdf>
+Package pdftex.def Info: Figures/Mass_pA_2_3.pdf  used on input line 258.
+(pdftex.def)             Requested size: 166.49887pt x 112.46915pt.
+<Figures/IPCHI2_pA_2_3.pdf, id=71, 569.12625pt x 409.53pt>
+File: Figures/IPCHI2_pA_2_3.pdf Graphic file (type pdf)
+<use Figures/IPCHI2_pA_2_3.pdf>
+Package pdftex.def Info: Figures/IPCHI2_pA_2_3.pdf  used on input line 259.
+(pdftex.def)             Requested size: 166.49887pt x 119.81047pt.
+
+Overfull \hbox (13.33983pt too wide) in paragraph at lines 271--275
+[]\T1/pplj/m/n/10 Efficiency need to be con-sid-ered.(Geometrical ac-cep-tance 
+ef-fi-ciency,Reconstruction
+ []
 
 No file article_4.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
-[5] [6 <./Figures/Lorem.jpg> <./Figures/Ipsum.jpg> <./Figures/Dolor.jpg> <./Fig
-ures/Sit.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+[4 <./Figures/Yield_pA.png> <./Figures/Yield_Ap.png>] [5 <./Figures/BFraction_p
+A.png> <./Figures/BFraction_Ap.png> <./Figures/Mass_Ap_2_3.pdf, page is rotated
+ 90 degrees> <./Figures/IPCHI2_Ap_2_3.pdf, page is rotated 90 degrees> <./Figur
+es/Mass_pA_2_3.pdf, page is rotated 90 degrees> <./Figures/IPCHI2_pA_2_3.pdf, p
+age is rotated 90 degrees>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
  (./article_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `article_4.out' has not changed.
-(rerunfilecheck)             Checksum: D09D47375C935A8127D3864D120AE195;445.
+(rerunfilecheck)             Checksum: BA3B62C9D2C45D8F7BD2B41C3F822094;295.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 14923 strings out of 492649
- 270224 string characters out of 6129623
- 605163 words of memory out of 5000000
- 18454 multiletter control sequences out of 15000+600000
- 121805 words of font info for 169 fonts, out of 8000000 for 9000
+ 14946 strings out of 492649
+ 271264 string characters out of 6129623
+ 608901 words of memory out of 5000000
+ 18467 multiletter control sequences out of 15000+600000
+ 107535 words of font info for 173 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,22n,94p,9088b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,23n,88p,9088b,560s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/
 local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2
 018/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/local/texlive/2018/t
@@ -992,18 +1035,16 @@ xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2018/
 texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/20
 18/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/now
-acki/iwona/iwonabi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/nowacki/
-iwona/iwonar.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/u
-plb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
-fb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on article_4.pdf (6 pages, 394036 bytes).
+018/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/urw/palatino/uplr8a.pfb>
+Output written on article_4.pdf (5 pages, 641670 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
+ 321 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
- 24146 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 20561 words of extra memory for PDF output out of 20736 (max. 10000000)
 

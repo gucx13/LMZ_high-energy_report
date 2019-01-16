@@ -121,78 +121,105 @@ Ultra-relativistic heavy-ion collisions are used to study the nuclear matter at 
 \end{itemize}
 
 %------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	Cross-section determination
+%----------------------------------------------------------------------------------------
+\section{Cross-section Determination}
+    The determination of the double-differential production cross-section for prompt $D_s$ requires the knowledge of the numbers of prompt $D_s$ in bins of the kinematic variables4 $y^{*}$ and $p_{T}$, where $p_T$ and $y^{*}$ are defined in the nucleon-nucleon center-of-mass frame, and the positive z-axis is defined as the direction of the proton beam.\par
+    The laboratory frame does not coincide with the center-of-mass frame of the proton-nucleon system, which has a rapidity of $\delta y = \frac
+{1}{2} log(A_{Pb}/Z_{Pb}) = 0.465$ in the laboratory frame. Therefore the rapidity in the pN rest frame, $y^{*}$, is shifted by a constant value with respect to the rapidity in the laboratory frame, $y = y^{*} + 0.465$.\par
+Here we define the rapidity with the direction of proton beam as positive z-axis (lead beam as negative z-axis). We thus define the rapidity acceptance in the pN center-of-mass frame to be$1.5<y^{*} <3.5(-4.5<y^{*} <-2.5)$for the Fwd(Bwd) collision. For the differential cross-section determination, the bin width for $p_T$ is 1 GeV/c and for $y^{*}$ 0.5; the signal yields and efficiency are determined separately for each bin, thanks to the good resolution.
+The double differential cross-section for prompt $D_s$ production in a given $(p_T,y^{*})$ bin is thus defined as:
+\begin{equation}
+\frac{d^2\sigma}{dp_Tdy}=\frac{N(D_s\rightarrow K^+K^-\pi)}{L\times \epsilon_{tot}\times B(D_s\rightarrow K^+K^-\pi)\times \Delta y\times \Delta p_T}
+\end{equation}
+where
+\begin{itemize}
+\item $N(D_s\rightarrow K^+K^-\pi)$ is the number of prompt $D_s$ signals reconstructed through the $D_s\rightarrow K^+K^-\pi$ decay channel.
+\item L is the integrated luminosity.
+\item $\epsilon_{tot}$ is the total efficiency determined in each ($p_T,y^{*}$) bin
+\item $B(D_s\rightarrow K^+K^-\pi)$  is the branching fraction of the decay $D_s^+\rightarrow K^+K^-\pi^+$ including $D_s^-\rightarrow K^+K^-\pi^-$
+\item $\Delta p_T = 1$ GeV/c is the bin width of the $D_s$ transverse momentum.
+\item $\Delta y = 0.5$ is the bin width of the $D_s$ rapidity.
+\end{itemize}
 
-\subsection{Paragraphs}
 
-\lipsum[6] % Dummy text
-
-\paragraph{Paragraph Description} \lipsum[7] % Dummy text
-
-\paragraph{Different Paragraph Description} \lipsum[8] % Dummy text
-
-%------------------------------------------------
-
-\subsection{Math}
-
-\lipsum[4] % Dummy text
+The forward and backward cross-section measurements are in the range $p_T(D_s) <
+ 10$ GeV/c. The rapidity acceptance in the laboratory frame for $D_s$ is roughly $2 < y < 4$
+ for the Fwd collision, and $-4 < y < -2$ for the Bwd collision.\par
+ 
+ 
+The total cross-section over a specific range is determined by integrating the double differential cross-section over that particular range. The nuclear modification factor is defined to be the production cross-section in pPb collisions, normalized by the number of nucleons in Pb nucleus , relative to that in pp collisions corresponding to the same nucleon-nucleon center-of-mass energy $\sqrt{s_{NN}}$ ,
 
 \begin{equation}
-\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
-\label{eq:refname2}
+R_{pPb}=\frac{1}{A}\frac{\frac{d^2\sigma_{pPb}}{dp_Tdy^*}(y^*(p_T),\sqrt{s_{NN}})}{\frac{d^2\sigma_{pp}}{dp_Tdy^*}(y^*(p_T),\sqrt{s_{NN}})}
 \end{equation}
 
-\lipsum[5] % Dummy text
+studied in bins of $p_T$ and $y^*$ integrated over $y^*$ and $p_T$ respectively. As you can see,$R_{pPb}$ is calculated integrated in all centralities, i.e. averaged over the number of binary proton-nucleon collisions, which is estimated to be around 7 by the ALICE experiment at LHC . Another interesting variable is the forward-backward production ratio for the same absolute rapidity, defined as
 
-\begin{definition}[Gauss] 
-To a mathematician it is obvious that
-$\int_{-\infty}^{+\infty}
-e^{-x^2}\,dx=\sqrt{\pi}$. 
-\end{definition} 
 
-\begin{theorem}[Pythagoras]
-The square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.
-\end{theorem}
+\begin{equation}
+R_{FB}=\frac{R_{pPb}(+|y^*|(p_T))}{R_{pPb}(-|y^*|(p_T))}
+\end{equation}
 
-\begin{proof} 
-We have that $\log(1)^2 = 2\log(1)$.
-But we also have that $\log(-1)^2=\log(1)=0$.
-Then $2\log(-1)=0$, from which the proof.
-\end{proof}
-
+also studied in bins of $p_T$ and $y^*$ integrated over $y^*$ and $p_T$ respectively.
 %----------------------------------------------------------------------------------------
-%	RESULTS AND DISCUSSION
+%	Signal yield determination
 %----------------------------------------------------------------------------------------
 
-\section{Results and Discussion}
+\section{Signal yield determination}
 
-Reference to Figure~\vref{fig:gallery}. % The \vref command specifies the location of the reference
+The signal yield is determined from extended unbinned maximum likelihood fit to the $M(K^+K^-\pi)$ invariant mass distribution.The signal shape is described by a crystal ball function plus a Gaussian. The two components share the mean value $\mu$. In the CB function, we fix $n = 1$ constraint from physics, while a is fixed to 2.72, the value obtained from simulation. The fraction of the CB component is fixed to 0.76. These parameters are also obtained from simulation, and they are found to describe very well the simulation sample in different kinematic bins. The background is described by a linear function. We fit the candidates in the range $M \pm |\Delta M|$ around the observed $D_s$ mass as $M =1969$ MeV/c2, with $|\Delta M| = 79$ MeV/c2. In Fig. 1, the fitted signal yield in different $(p_T,y^*)$ bins are given. The $\sigma$ of the CB is known to depend on $D_s$ kinematics while the $\mu$ could also be kinematic dependent due to imperfect detector alignment, so in the fit the mean $\mu$ and $\sigma$ are independent parameters in each bin.\par
 
 \begin{figure}[tb]
-\centering 
-\includegraphics[width=0.5\columnwidth]{GalleriaStampe} 
-\caption[An example of a floating figure]{An example of a floating figure (a reproduction from the \emph{Gallery of prints}, M.~Escher,\index{Escher, M.~C.} from \url{http://www.mcescher.com/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
-\label{fig:gallery} 
+\centering
+\subfloat[]{\includegraphics[width=.45\columnwidth]{Yield_pA}} \quad
+\subfloat[]{\includegraphics[width=.45\columnwidth]{Yield_Ap}} \quad
+\caption[Signal yield]{The fitted total $D_s$ signal yields as a function of $p_T$ and $y^*$ for (left) Fwd and (right) Bwd real data configuration. The empty bins are regions in which the statistics was too low and the fit failed.} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+\label{fig:esempio}
 \end{figure}
 
-\lipsum[10] % Dummy text
 
-%------------------------------------------------
+To discriminate prompt $D_s$ and $D_s$ from b, the distribution of $log(\chi^2_{IP}(D_s))$ (10 based logarithm) is fitted to determine the fraction of $D_s$ from b, which is the number of $D_s$ from b candidates over the sum of $D_s$ from b and prompt $D_s$. The $log(\chi^2_{IP}(D_s))$ for prompt $D_s$ decays is modelled with a modified gaussian function ($f_{AGE}$), where the width is allowed to be asymmetric with respect to the mean, and the tails are described by exponential functions
 
-\subsection{Subsection}
 
-\lipsum[11] % Dummy text
+\begin{equation}
+f_{AGE}(x;\mu,\sigma,\epsilon,\rho_L,\rho_R)=\left\{
+\begin{aligned}
+e^{\frac{\rho_L^2}{2}+\frac{\rho_L\cdot (x-\mu)}{\sigma \cdot (1-\epsilon)}} \quad\quad {x<\mu-(\sigma \cdot \rho_L\cdot(1-\epsilon))}\\
+e^{-(\frac{x-\mu}{\sqrt{2}\sigma \cdot (1-\epsilon)})^2} \quad\quad {\mu-(\sigma \cdot \rho_L\cdot(1-\epsilon))<x<\mu}\\
+e^{-(\frac{x-\mu}{\sqrt{2}\sigma \cdot (1+\epsilon)})^2} \quad\quad \mu <x<\mu+(\sigma \cdot \rho_R\cdot(1+\epsilon))\\
+e^{\frac{\rho_R^2}{2}-\frac{\rho_R\cdot (x-\mu)}{\sigma \cdot (1+\epsilon)}} \quad\quad {x>\mu+(\sigma \cdot \rho_R\cdot(1+\epsilon))}\\
+\end{aligned}
+\right.
+\end{equation}
 
-\subsubsection{Subsubsection}
+as it was done in previous analyses The tail parameters $\rho_L$, $\rho_R$ and the asymmetry parameter $\epsilon$ are determined from fits to simulated sample.\par
 
-\lipsum[12] % Dummy text
+The $log(\chi^2_{IP}(D_s))$ distribution for $D_s$-from-b component is described by a Gaussian function, while the one for combinatorial background is deduced by the S-weight method.\par
 
+The fitted fractions in different $D_s$ $p_T$ and $y^*$ bins are given in Figs. 2. From the plot we can observe that the fraction lies in the range 0-0.2, and it increases with increasing $p_T$. It should be noted that these fractions should not be used to extract the production cross section of b-hadrons from that of $D_s$ production. In fact, the two components have very different efficiencies, in particular the lifetime-related selections favors b-hadrons.\par
+
+The invariant mass and $log(\chi^2_{IP}(D_s))$ distributions, together with the fits are given in Figs. 3  for two particular kinematic bins, for the Fwd and Bwd sample respectively. Good agreements are found between the mass and $log(\chi^2_{IP}(D0))$ distributions of signals in data and simulation. 
+
+\begin{figure}[tb]
+\centering
+\subfloat[]{\includegraphics[width=.45\columnwidth]{BFraction_pA}} \quad
+\subfloat[]{\includegraphics[width=.45\columnwidth]{BFraction_Ap}} \quad
+\caption[$D_s$-from-b fraction]{The fitted fractions of $D_s$-from-b as a function of $p_T$ and $y^*$ for (left) Fwd and (right) Bwd data configuration. Only uncertainties returned by the fit are shown.} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+\label{fig:esempio}
+\end{figure}
+
+
+
+\begin{comment}
 \begin{description}
 \item[Word] Definition
 \item[Concept] Explanation
 \item[Idea] Text
 \end{description}
 
-\lipsum[12] % Dummy text
+
 
 \begin{itemize}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
 \item First item in a list
@@ -200,9 +227,7 @@ Reference to Figure~\vref{fig:gallery}. % The \vref command specifies the locati
 \item Third item in a list
 \end{itemize}
 
-\subsubsection{Table}
 
-\lipsum[13] % Dummy text
 
 \begin{table}[hbt]
 \caption{Table of Grades}
@@ -213,33 +238,37 @@ Reference to Figure~\vref{fig:gallery}. % The \vref command specifies the locati
 \cmidrule(r){1-2}
 First name & Last Name & Grade \\
 \midrule
-John & Doe & $7.5$ \\
-Richard & Miles & $2$ \\
+ &  & $7.5$ \\
+ &  & $2$ \\
 \bottomrule
 \end{tabular}
 \label{tab:label}
 \end{table}
 
 Reference to Table~\vref{tab:label}. % The \vref command specifies the location of the reference
-
+\end{comment}
 %------------------------------------------------
 
-\subsection{Figure Composed of Subfigures}
 
-Reference the figure composed of multiple subfigures as Figure~\vref{fig:esempio}. Reference one of the subfigures as Figure~\vref{fig:ipsum}. % The \vref command specifies the location of the reference
-
-\lipsum[15-18] % Dummy text
 
 \begin{figure}[tb]
 \centering
-\subfloat[A city market.]{\includegraphics[width=.45\columnwidth]{Lorem}} \quad
-\subfloat[Forest landscape.]{\includegraphics[width=.45\columnwidth]{Ipsum}\label{fig:ipsum}} \\
-\subfloat[Mountain landscape.]{\includegraphics[width=.45\columnwidth]{Dolor}} \quad
-\subfloat[A tile decoration.]{\includegraphics[width=.45\columnwidth]{Sit}}
-\caption[A number of pictures.]{A number of pictures with no common theme.} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+\subfloat[]{\includegraphics[width=.45\columnwidth]{Mass_Ap_2_3}} \quad
+\subfloat[]{\includegraphics[width=.45\columnwidth]{IPCHI2_Ap_2_3}\label{IPCHI2_Ap_2_3}} \\
+\subfloat[]{\includegraphics[width=.45\columnwidth]{Mass_pA_2_3}} \quad
+\subfloat[]{\includegraphics[width=.45\columnwidth]{IPCHI2_pA_2_3}}
+\caption[Mass and $\chi^2_{IP}(D_s)$ fits ]{(a) and (b) are $M(D_s)$ and $\chi^2_{IP}(D_s)$ distributions and the fit result for the Bwd, (c) and (d) are $M(D_s)$ and $\chi^2_{IP}(D_s)$ distributions and the fit result for the Fwd} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
 \label{fig:esempio}
 \end{figure}
 
+
+%----------------------------------------------------------------------------------------
+%	Next stage
+%----------------------------------------------------------------------------------------
+
+\section{Next stage}
+
+Efficiency need to be considered.(Geometrical acceptance efficiency,Reconstruction and selection efficiency $\&$ PID efficiency) We can calculate the prompt $D_s$ production, then we can calculate the cross-section,Nuclear modifiction factors $\&$ forward-backward ratio. 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
